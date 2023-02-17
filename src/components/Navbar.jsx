@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import logo from "../Img/LogoColmillo.svg";
-import flecha from "../Img/Inicio/flechaMenu.png";
-import logDireccion from "../Img/Contacto/logDireccion.png";
-import logWhatsapp from "../Img/Contacto/logWhatsapp.png";
-import logInstagram from "../Img/Contacto/logInstagram.png";
+import flecha from "../Img/Inicio/flechaMenu.svg";
+import logDireccion from "../Img/Contacto/logDireccion.svg";
+import logWhatsapp from "../Img/Contacto/logWhatsapp.svg";
+import logInstagram from "../Img/Contacto/logInstagram.svg";
 function Navbar() {
   const [open, setOpen] = useState(false);
   return (

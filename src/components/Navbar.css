@@ -53,6 +53,7 @@
   color: #ffffff;
   font-size: 6vw;
   transition: all 0.5s;
+  height: 100%;
   z-index: 100;
 }
 .menuText {

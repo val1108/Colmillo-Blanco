@@ -1,9 +1,9 @@
 import React from "react";
 import "./Contacto.css";
 import polygonContact from "../Img/Contacto/polygonSeccion.svg";
-import logDireccion from "../Img/Contacto/logDireccion.png";
-import logWhatsapp from "../Img/Contacto/logWhatsapp.png";
-import logInstagram from "../Img/Contacto/logInstagram.png";
+import logDireccion from "../Img/Contacto/logDireccion.svg";
+import logWhatsapp from "../Img/Contacto/logWhatsapp.svg";
+import logInstagram from "../Img/Contacto/logInstagram.svg";
 
 function Contacto() {
   return (
