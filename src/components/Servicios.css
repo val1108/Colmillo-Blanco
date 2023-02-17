@@ -1,0 +1,146 @@
+/* Vista movil */
+.serviciosContainer {
+  background: #dbffbe;
+  height: 340vw;
+}
+.serviciosElements {
+  height: 20vw;
+  z-index: 6;
+}
+.serviciosElements > .polygonSeccion {
+  position: relative;
+  top: -45vw;
+  z-index: 5;
+  width: 100%;
+}
+.serviciosTitle {
+  color: #002821;
+  font-size: 12.5vw;
+  font-weight: 800;
+  padding-top: 14vw;
+  text-align: center;
+  z-index: 6;
+  position: relative;
+}
+.serviciosElements .pointGreenDark {
+  position: relative;
+  width: 10vw;
+  top: -122vw;
+  z-index: 6;
+}
+.serviciosElements .ellipseWhite {
+  position: relative;
+  width: 8vw;
+  top: -12vw;
+  left: -11vw;
+  z-index: 6;
+}
+.serviciosElements .ellipseGreen {
+  position: relative;
+  width: 9vw;
+  top: 160vw;
+  z-index: 6;
+  right: -73vw;
+}
+.serviciosElements .triangle {
+  position: relative;
+  width: 10vw;
+  top: 36vw;
+  right: -62vw;
+  z-index: 6;
+}
+.serviciosElements .triangle1 {
+  position: relative;
+  width: 12vw;
+  top: 176vw;
+  z-index: 6;
+  left: -38vw;
+  rotate: 360grad;
+}
+.target1 {
+  display: flex;
+  z-index: 6;
+  position: relative;
+  margin: 0 6vw 16vw;
+}
+.targetIcon {
+  background-color: #206a5d;
+
+  width: 30vw;
+  display: flex;
+}
+.targetText {
+  background: #ffffff;
+
+  padding: 2vw;
+}
+.target1 > .targetIcon,
+.target2 > .targetText {
+  border-radius: 4vw 0 0 4vw;
+}
+.target1 > .targetText,
+.target2 > .targetIcon {
+  border-radius: 0 4vw 4vw 0;
+}
+
+.targetTitle {
+  color: #002821;
+  font-size: 6.5vw;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+.targetPrice {
+  color: #002821;
+  font-size: 6.7vw;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  margin: 2vw 0;
+}
+.targetInfoadd {
+  color: #002821;
+  font-size: 5.3vw;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  margin-bottom: 2vw;
+}
+.targetInfo {
+  color: #002821;
+  font-size: 5vw;
+  font-weight: 400;
+  text-align: center;
+  display: block;
+  margin-bottom: 2vw;
+}
+.perroCombo {
+  width: 33vw;
+}
+.target2 {
+  display: flex;
+  z-index: 6;
+  position: relative;
+  margin: 0 6vw 16vw;
+}
+.iconSmall {
+  width: 30vw;
+  padding: 2vw 4vw;
+}
+.arrowDate {
+  width: 8vw;
+  margin: 0 2vw;
+}
+.dateService {
+  color: #002821;
+  font-size: 6.5vw;
+  font-weight: 700;
+  text-align: center;
+}
+.date {
+  display: flex;
+  justify-content: center;
+}
+.date a {
+  text-decoration: none;
+}

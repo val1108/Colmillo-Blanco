@@ -1,0 +1,45 @@
+.productosContainer {
+  background: #f0cda3;
+  height: 170vw;
+}
+.seccionProducts {
+  width: 100%;
+  position: relative;
+  top: -40vw;
+  z-index: 6;
+}
+.productosContainer > h2 {
+  font-size: 12.5vw;
+  font-weight: 800;
+  color: #041c32;
+  padding-top: 14vw;
+  text-align: center;
+  z-index: 7;
+  position: relative;
+}
+.opcions {
+  margin-left: auto;
+  margin-right: auto;
+  top: -80vw;
+  position: relative;
+  width: 60vw;
+  z-index: 7;
+}
+.item {
+  display: flex;
+  align-items: center;
+  margin: 0 0 15vw 0;
+}
+.item > span {
+  font-weight: 700;
+  font-size: 7vw;
+  color: #041c32;
+  margin-right: 3vw;
+}
+.itemImg {
+  width: 10vw;
+  margin-right: 3vw;
+}
+.arrowBlue {
+  width: 7vw;
+}

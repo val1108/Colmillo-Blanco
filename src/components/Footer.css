@@ -1,0 +1,40 @@
+.footerContainer {
+  background: #041c32;
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 8vw 6vw;
+}
+li {
+  list-style: none;
+  margin: 0 0 2vw 3vw;
+  color: #ffffff;
+  font-size: 4.8vw;
+  font-weight: 600;
+}
+.columnTitle {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 5.2vw;
+  margin-left: 0;
+}
+.footerContainer > span {
+  background: #193045;
+  color: #b9d3ea;
+  text-align: center;
+  width: 100%;
+  padding: 2vw 0;
+  font-size: 3.2vw;
+  display: inline-block;
+}
+.button {
+  background: #041c32;
+  border: #ffffff solid 0.8vw;
+  border-radius: 6vw;
+  color: #ffffff;
+  padding: 1.5vw 2.5vw;
+  font-size: 4.5vw;
+  margin-top: -3vw;
+  font-weight: 600;
+}

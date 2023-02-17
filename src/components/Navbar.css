@@ -1,0 +1,82 @@
+/* Vista movil */
+.navbarContainer {
+  background: #6eccaf;
+}
+.navLogo img {
+  width: 25vw;
+  display: flex;
+  margin: auto;
+}
+.navToggle {
+  position: fixed;
+  top: 7vw;
+  right: 5vw;
+  z-index: 100;
+}
+.navToggle span {
+  background-color: #041c32;
+  width: 5.5vw;
+  height: 1vw;
+  border-radius: 1vw;
+  display: flex;
+  margin: 0.5vw;
+  transition: all 0.2s;
+}
+.navToggle.open span {
+  display: none;
+}
+.navItems.false,
+.navItems.false img {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.navItems.open .flecha {
+  position: static;
+  display: flex;
+  visibility: visible;
+  width: 12vw;
+  margin: 4vw 0 5vw 4vw;
+}
+.navItems.open {
+  position: fixed;
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  top: 0;
+  right: 0;
+  background-color: #064663;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 6vw;
+  transition: all 0.5s;
+  z-index: 100;
+}
+.menuText {
+  margin: 2.8vw;
+}
+.iconsMenu {
+  visibility: visible;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 6vw;
+  margin: 6vw 0;
+}
+.iconItem img {
+  width: 9.5vw;
+  display: flex;
+}
+/* Opcion para convertir boton hamburguesa en X */
+/* .navToggle.open > span {
+  transform: rotate(50deg) translate(0px, 0px);
+}
+.navToggle.open > span:nth-child(2) {
+  display: none;
+}
+.navToggle.open > span:nth-child(3) {
+  transform: rotate(-50deg) translate(1vw, -1vw);
+} */
